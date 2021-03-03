@@ -1,0 +1,68 @@
+body{
+    background: #19A1AD;
+    font-family: "Kumbh Sans", sans-serif;
+    
+}
+
+#profile-card{
+    background: #FFFFFF;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 100px auto;
+
+}
+    #back-photo{
+        position: absolute; 
+        border-radius: 20px 20px 0px 0px;       
+    }
+
+    #profile-photo{
+        border-radius: 50%;
+        border: 3px solid #FFFFFF;
+        margin: 90px 80px;
+        position: absolute;
+    }
+
+    #info{
+        padding-top: 200px;
+        
+    }
+        #age{
+            float: right;
+            padding-right: 110px;
+            margin-bottom: 20px;
+            font-weight: lighter;
+            color: hsl(227, 10%, 46%);
+        }
+        #name{
+            float: left;
+            margin-left: 120px;
+            font-weight: 700;
+        }
+        #city{
+            text-align: center;
+            margin-left: 120px;
+            padding-top: 30px;
+            font-size: 12px;
+            color: hsl(227, 10%, 46%);
+        }
+
+        
+    ul{
+        list-style-type: none;
+        margin-top: 50px;
+        padding-top: 10px;
+        display: grid;
+        grid-template-areas: "li li li" "li li li";
+        border-top: 1px solid #F1F1F1;
+
+    }
+        
+        .information{
+            font-size: 12px;
+            color: hsl(227, 10%, 46%);
+        }
+        .counting{
+            font-weight: 700;
+        }
